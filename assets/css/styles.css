@@ -2,26 +2,147 @@
 	background-color: #312783;
 }
 
-.bgc-blue {
+.nav-blue {
 	background-color: #00b4e3;
 }
 
-.bgc-red {
+.nav-blue>a:hover, .nav-blue>a:visited, .nav-blue>ul>li, .nav-blue>ul>li>a:hover {
+	background-color: #008aaa !important;
+}
+
+.nav-red {
 	background-color: #e30613;
 }
 
-.bgc-green {
+.nav-red>a:hover, .nav-red>a:visited, .nav-red>ul>li, .nav-red>ul>li>a:hover {
+	background-color: #b20011 !important;
+}
+
+.nav-green {
 	background-color: #c2d840;
 }
 
-.bgc-orange {
+.nav-green>a:hover, .nav-green>a:visited, .nav-green>ul>li, .nav-green>ul>li>a:hover {
+	background-color: #8cb723 !important;
+}
+
+.nav-orange {
 	background-color: #f87d13;
 }
 
-.bgc-yellow {
+.nav-orange>a:hover, .nav-orange>a:visited, .nav-orange>ul>li, .nav-orange>ul>li>a:hover {
+	background-color: #f74f14 !important;
+}
+
+.nav-yellow {
 	background-color: #f9d500;
 }
 
-.font-white {
+.nav-yellow>a:hover {
+	background-color: #ccad00 !important;
+}
+
+.font-white>div>div>div>div>i, .font-white>div>div>ul>li>a{
 	color: white !important;
+}
+
+.nav-main>li>ul>li>a {
+	font-size: 15px;
+}
+
+.nav-main>li>ul {
+	padding: 0;
+	border: 0;
+}
+
+.nav-main>li {
+	padding: 0;
+}
+
+.nav-main>li>ul>li>a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.img-brand {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.height-auto {
+	height: auto !important;
+}
+
+.width-100 {
+	width: 100% !important;
+}
+
+.navbar-menu {
+	margin-top: 56px;
+	background-color: #00b4e3;
+	border-color: #006680;
+}
+
+.navbar-menu>span {
+	background-color: #006680;
+}
+
+.no-float {
+	float: none;
+}
+
+.social>div>i {
+	padding: 10px 13px;
+	border-radius: 8px;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.facebook {
+	background-color: #397dc6;
+}
+
+.twitter {
+	background-color: #0bbbef;
+}
+
+.instagram {
+	background-color: #af1c8d;
+}
+
+.youtube {
+	background-color: #e30613;
+}
+
+.nav-main>li>a {
+	padding-top: 30px;
+	font-family: FredokaOne;
+	font-size: 20px;
+}
+
+.nav-main>li>a {
+	height: 87px;
+}
+
+.nav-main>li>ul>li>a {
+	font-family: FredokaOne;
+	color: white;
+}
+
+.padding-right-0 {
+	padding-right: 0 !important;
+}
+
+.no-border {
+	border: 0;
+	border-radius: 0;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: white;
+}
+
+@font-face {
+	font-family: FredokaOne;
+	src: url(../fonts/FredokaOne-Regular.ttf);
 }
