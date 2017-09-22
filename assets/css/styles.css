@@ -1,3 +1,27 @@
-.test {
-	color: blue;
+.bgc-purple {
+	background-color: #312783;
+}
+
+.bgc-blue {
+	background-color: #00b4e3;
+}
+
+.bgc-red {
+	background-color: #e30613;
+}
+
+.bgc-green {
+	background-color: #c2d840;
+}
+
+.bgc-orange {
+	background-color: #f87d13;
+}
+
+.bgc-yellow {
+	background-color: #f9d500;
+}
+
+.font-white {
+	color: white !important;
 }

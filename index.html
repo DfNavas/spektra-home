@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Bootstrap 101 Template</title>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="https://use.fontawesome.com/216b9e2b3f.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown link
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="col-md-2 navbar-header bgc-purple">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="img-responsive" src="assets/img/brand.png"></a>
+			</div>
+			<div class="col-md-10 bgc-purple">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-10">
+						<div class="col-md-3 font-white"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						<div class="col-md-3 font-white"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						<div class="col-md-3 font-white"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						<div class="col-md-3 font-white"><i class="fa fa-youtube" aria-hidden="true"></i></div>
 					</div>
-				</li>
-			</ul>
-		</div>
+				</div>
+				<div class="row">
+					<ul class="col-md-12 nav navbar-nav text-center">
+						<li class="col-md-3 dropdown bgc-blue">
+							<a href="#" class="dropdown-toggle text-uppercase font-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+							<ul class="dropdown-menu text-uppercase">
+								<li><a href="#">Misión</a></li>
+								<li><a href="#">Visión</a></li>
+								<li><a href="#">Valores</a></li>
+							</ul>
+						</li>
+						<li class="col-md-2 dropdown bgc-red">
+							<a href="#" class="dropdown-toggle text-uppercase font-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tienda</a>
+							<ul class="dropdown-menu text-uppercase">
+								<li><a href="#">Linea de Arte</a></li>
+								<li><a href="#">Linea Escolar</a></li>
+								<li><a href="#">Linea Oficina</a></li>
+								<li><a href="#">Linea Industrial</a></li>
+							</ul>
+						</li>
+						<li class="col-md-4 dropdown bgc-green">
+							<a href="#" class="dropdown-toggle text-uppercase font-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creative Club</a>
+							<ul class="dropdown-menu text-uppercase">
+								<li><a href="#">Kids</a></li>
+								<li><a href="#">Educadores</a></li>
+							</ul>
+						</li>
+						<li class="col-md-2 dropdown bgc-orange">
+							<a href="#" class="dropdown-toggle text-uppercase font-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+							<ul class="dropdown-menu text-uppercase">
+								<li><a href="#">Septiembre</a></li>
+								<li><a href="#">Octubre</a></li>
+								<li><a href="#">Noviembre</a></li>
+							</ul>
+						</li>
+						<li class="col-md-1 bgc-yellow"><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</div><!-- /.container-fluid -->
 	</nav>
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
