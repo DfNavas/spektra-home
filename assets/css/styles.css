@@ -1,44 +1,44 @@
-.bgc-purple {
+.color-purple {
 	background-color: #312783;
 }
 
-.nav-blue {
+.color-blue {
 	background-color: #00b4e3;
 }
 
-.nav-blue>a:hover, .nav-blue>a:visited, .nav-blue>ul>li, .nav-blue>ul>li>a:hover {
+.color-blue>a:hover, .color-blue>a:visited, .color-blue>ul>li, .color-blue>ul>li>a:hover {
 	background-color: #008aaa !important;
 }
 
-.nav-red {
+.color-red {
 	background-color: #e30613;
 }
 
-.nav-red>a:hover, .nav-red>a:visited, .nav-red>ul>li, .nav-red>ul>li>a:hover {
+.color-red>a:hover, .color-red>a:visited, .color-red>ul>li, .color-red>ul>li>a:hover {
 	background-color: #b20011 !important;
 }
 
-.nav-green {
+.color-green {
 	background-color: #c2d840;
 }
 
-.nav-green>a:hover, .nav-green>a:visited, .nav-green>ul>li, .nav-green>ul>li>a:hover {
+.color-green>a:hover, .color-green>a:visited, .color-green>ul>li, .color-green>ul>li>a:hover {
 	background-color: #8cb723 !important;
 }
 
-.nav-orange {
+.color-orange {
 	background-color: #f87d13;
 }
 
-.nav-orange>a:hover, .nav-orange>a:visited, .nav-orange>ul>li, .nav-orange>ul>li>a:hover {
+.color-orange>a:hover, .color-orange>a:visited, .color-orange>ul>li, .color-orange>ul>li>a:hover {
 	background-color: #f74f14 !important;
 }
 
-.nav-yellow {
+.color-yellow {
 	background-color: #f9d500;
 }
 
-.nav-yellow>a:hover, .nav-yellow>a:visited {
+.color-yellow>a:hover, .color-yellow>a:visited {
 	background-color: #ccad00 !important;
 }
 
@@ -142,7 +142,122 @@
 	color: white;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
+
+.container-full {
+	width: 100%;
+	padding: 0;
+}
+
+.container-full>div {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.container-full>div>div {
+	padding: 0;
+}
+
+.promo1 {
+	background-image: url(../img/promo1.png);
+	background-size: 100%;
+	background-position:50% 50%;
+}
+
+.promo2 {
+	background-image: url(../img/promo2.png);
+	background-size: 175%;
+	background-position:50% 50%;
+}
+
+.promo3 {
+	background-image: url(../img/promo3.jpg);
+	background-size: 120%;
+	background-position: 100% 100%;
+}
+
+.promo4 {
+	background-image: url(../img/promo4.png);
+	background-size: 200%;
+	background-position:50% 0%;
+}
+
+.promo>div {
+	padding: 10px !important;
+}
+
+.promo>div>div {
+	padding-top: 360px;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+.promo>div>div>div {
+	width: 100%;
+	height: 140px;
+	font-family: FredokaOne;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+.promo>div>div>div>a {
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.promo>div>div>div>a:hover {
+	color: white;
+}
+
+.color-blue>a {
+	color: #007d9e;
+}
+
+.color-red>a {
+	color: #9e040d;
+}
+
+.color-green>a {
+	color: #008d36;
+}
+
+.color-orange>a {
+	color: #ad570d;
+}
+
+.creative-club>p>span {
+	color: #008d36;
+}
+
+.blog>p>span {
+	font-family: QL !important;
+	font-size: 1em;
+	color: #ad570d;
+}
+
+.blog>p.text-right {
+	float: right;
+}
+
+
 @font-face {
 	font-family: FredokaOne;
 	src: url(../fonts/FredokaOne-Regular.ttf);
 }
+
+@font-face {
+	font-family: QL;
+	src: url(../fonts/Quicksand-Light.ttf);
+}
+
+
+
+
+
