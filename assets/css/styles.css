@@ -38,7 +38,7 @@
 	background-color: #f9d500;
 }
 
-.nav-yellow>a:hover {
+.nav-yellow>a:hover, .nav-yellow>a:visited {
 	background-color: #ccad00 !important;
 }
 
