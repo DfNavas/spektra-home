@@ -163,24 +163,24 @@
 .promo1 {
 	background-image: url(../img/promo1.png);
 	background-size: 100%;
-	background-position:50% 50%;
+	background-position:50% 0%;
 }
 
 .promo2 {
 	background-image: url(../img/promo2.png);
-	background-size: 175%;
-	background-position:50% 50%;
+	background-size: 100%;
+	background-position:50% 0%;
 }
 
 .promo3 {
-	background-image: url(../img/promo3.jpg);
-	background-size: 120%;
-	background-position: 100% 100%;
+	background-image: url(../img/promo3.png);
+	background-size: 100%;
+	background-position: 50% 0%;
 }
 
 .promo4 {
 	background-image: url(../img/promo4.png);
-	background-size: 200%;
+	background-size: 100%;
 	background-position:50% 0%;
 }
 
@@ -246,6 +246,83 @@
 	float: right;
 }
 
+.creative {
+	background-color: #e91e63;
+	color: white;
+	font-family: FredokaOne;
+	padding-bottom: 20px;
+}
+
+.creative>div>h3 {
+	font-size: 30px;
+}
+
+.creative>div>p {
+	font-size: 25px;
+}
+
+.creative>div {
+	padding: 10px 0 !important;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.footer a{
+	color: #312783;
+	background-color: #f9d500;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.footer h4 {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+.footer a, h4 {
+	font-family: FredokaOne;
+}
+
+.footer p {
+	font-family: QM;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.footer-social {
+	margin-top: 150px;
+	font-family: QM;
+	font-size: 15px !important;
+}
+
+.footer img {
+	margin: 0 auto;
+}
+
+.p-margin {
+	margin-top: 50px;
+}
+
+.social-footer>div>i {
+	padding: 6px 8px;
+	border-radius: 8px;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.social-footer {
+	padding-right: 16px;
+}
+
+.slogan {
+	padding-left: 16px !important;
+}
 
 @font-face {
 	font-family: FredokaOne;
@@ -257,7 +334,7 @@
 	src: url(../fonts/Quicksand-Light.ttf);
 }
 
-
-
-
-
+@font-face {
+	font-family: QM;
+	src: url(../fonts/Quicksand-Medium.ttf);
+}
