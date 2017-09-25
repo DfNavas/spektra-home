@@ -338,6 +338,56 @@
 	margin-left: 0;
 }
 
+.manualidad h1 {
+	font-family: FredokaOne;
+	font-size: 5em;
+	color: #e91e63;
+	margin: 4vh 0;
+}
+
+.manualidad h2 {
+	font-family: FredokaOne;
+	font-size: 3.7em;
+	color: #e91e63;
+	margin: 4vh 0;
+}
+
+.manualidad h6 {
+	font-family: QM;
+	font-size: 3em;
+	color: #878787;
+	margin-top: 5vh;
+}
+
+.manualidad p {
+	font-family: QL;
+	font-size: 2.5em;
+	color: #878787;
+}
+
+.manualidad a {
+	font-family: FredokaOne;
+	font-size: 0.6em;
+	text-decoration: none;
+	color: white;
+	background-color: #e91e63;
+	padding: 10px 26px;
+	font-weight: lighter;
+	border-radius: 6px;
+}
+
+.manualidad a:hover {
+	background-color: #ba124a;	
+}
+
+.manualidad i {
+	padding: 0 6px;
+}
+
+.manualidad img {
+	margin: 30px auto;
+}
+
 @font-face {
 	font-family: FredokaOne;
 	src: url(../fonts/FredokaOne-Regular.ttf);
